@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE SPDeleteEmployee
+@Id INT
+AS
+BEGIN
+   DELETE FROM Employee
+   WHERE Id=@Id
+END
